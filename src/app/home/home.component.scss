@@ -1,0 +1,21 @@
+.hero-img-container > img {
+  width: 350px;
+  height: 100vh;
+}
+.hero-section {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.hero-text-container > h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.hero-text-container > h3 {
+  color: #59ab6e;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}

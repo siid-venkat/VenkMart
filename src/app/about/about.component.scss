@@ -1,0 +1,45 @@
+.about-us-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.services-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 2rem;
+}
+.service {
+  /* border: 1px solid black; */
+  height: 12rem;
+  width: 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 4px 6px;
+  transition: all 0.2s ease-in;
+  margin: 1rem;
+}
+
+.service > i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #59ab6e;
+}
+.service:hover {
+  color: white;
+  background-color: #59ab6e;
+}
+.service:hover > i {
+  color: white;
+}
+.service > h4 {
+  font-size: 20px;
+}
